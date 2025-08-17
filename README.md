@@ -279,24 +279,4 @@ The application follows a modular architecture:
 - [process_message()](clickatell_chatbot_single.py#L456): Main message processing pipeline
 - [main()](clickatell_chatbot_single.py#L548): Application entry point
 
-## Support
 
-For technical support and inquiries:
-- Email: support@clickatell.com
-- Documentation: Internal knowledge base
-- Escalation: 24/7 human agent availability
-
-## License
-
-This project is proprietary software developed for Clickatell's internal use.
-
-## Authors
-
-- Andile Lwanga - Lead Developer
-
-## Acknowledgments
-
-- OpenAI for GPT-3.5-turbo API
-- HuggingFace for transformer models
-- LangChain for RAG framework
-- Streamlit for web interface
