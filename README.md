@@ -6,7 +6,7 @@ The Intelligent CX Agent is a next-generation AI-powered chatbot designed for en
 
 This system provides automated assistance by combining document-based knowledge retrieval (Retrieval-Augmented Generation, or RAG) with sentiment-aware conversation management. Crucially, it features an intelligent escalation capability: conversations are seamlessly handed off to human agents based on real-time sentiment analysis and AI confidence thresholds.
 
-**Note**: Throughout this documentation, we use a global messaging leader like Clickatell as a representative enterprise example to contextualize the agent's application, performance, and scalability in a real-world Chat Commerce environment..
+**Note**: Throughout this documentation, we use a global messaging leader like Clickatell as a representative enterprise example to contextualize the agent's application, performance, and scalability in a 
 
 ### Focus on Trust and Safety: The Pillars of Grounded Cooperation:
 
@@ -289,4 +289,14 @@ The application follows a modular architecture:
 - [process_message()](clickatell_chatbot_single.py#L456): Main message processing pipeline
 - [main()](clickatell_chatbot_single.py#L548): Application entry point
 
+## User-Interface
+#### *Image 1: Neutral sentiment*  
 
+![Neutral](components/ui/assets/neutral.png) &nbsp;&nbsp;&nbsp;
+
+#### *Image 2: Positive sentiment*  
+
+![Positive](components/ui/assets/positive.png) &nbsp;
+#### *Image 3: Negative sentiment*  
+
+![Negative](components/ui/assets/negative.png)
