@@ -1,20 +1,4 @@
-# Intelligent CX assistant
-
-## Overview
-
-The Intelligent CX Agent is a next-generation AI-powered chatbot designed for enterprise-grade customer support.
-
-This system provides automated assistance by combining document-based knowledge retrieval (Retrieval-Augmented Generation, or RAG) with sentiment-aware conversation management. Crucially, it features an intelligent escalation capability: conversations are seamlessly handed off to human agents based on real-time sentiment analysis and AI confidence thresholds.
-
-**Note**: Throughout this documentation, we use a global messaging leader like Clickatell as a representative enterprise example to contextualize the agent's application, performance, and scalability in a 
-
-### Focus on Trust and Safety: The Pillars of Grounded Cooperation:
-
-- Grounded Cooperation: By using a RAG engine, the AI's responses are grounded in a controlled knowledge base. This reduces the risk of unhelpful "hallucinations" and ensures the AI is a reliable, truthful partner in the information-seeking task, which is fundamental to establishing trust and cooperation.
-
-- Monitoring Cooperative State: The sentiment analysis component functions as a proxy for monitoring the user's cooperative intent. A sharp decline in sentiment is treated as an indicator that the cooperative frame is breaking down, requiring intervention.
-
-- Safe Conflict Resolution & Escalation: The intelligent escalation system is a safety feature designed for cooperative failure. Instead of allowing the AI to frustrate a user or provide incorrect information repeatedly, the system identifies a non-cooperative state (e.g., high negative sentiment, low AI confidence) and initiates a handoff to a human. This explores strategies for robustly managing the boundaries of an AI's capabilities.
+# RAG Augmented Chatbot with Sentiment analysis and Human in the loop escalation
 
 ## Architecture
 
